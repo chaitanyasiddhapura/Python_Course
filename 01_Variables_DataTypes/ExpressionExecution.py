@@ -32,7 +32,7 @@ print(A5 / B5)
 
 
 # 6. Integer division with float and int will give int display as float 
-A6, B6 = 1, 10
+A6, B6 = 1.5, 3
 #Evaluate 1/10 = 0.1. However, the result is always an integer, so it is 0. But display the result as a floating-point number, so the final result is 0.0.  
 C6 = A6 // B6
 print("Output 6 -> ")
