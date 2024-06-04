@@ -16,7 +16,6 @@ info = {
     3432 : 32132 # key value may be number
 }
 
-
 print(info)
 print(type(info)) # check the type of the variable 'info'
 print(list(info)) # convert the dictionary keys into a list
@@ -78,4 +77,3 @@ print(student.get("name1")) # return the key according to value
 student.update({"City" : "Remote"}) # inserts the specified item to the Dictionary
 print(student)
 
-    
