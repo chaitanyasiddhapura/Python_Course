@@ -25,9 +25,9 @@ print("*****")
 '''
 Without using function like 'chr'
 
-AAA
-BBB
-CCC
+ABC
+ABC
+ABC
 '''
 # This code might cause an error if n is 27 or higher value because the String index is out of range.
 
