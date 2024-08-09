@@ -31,3 +31,27 @@ if(tempN < 0):
     print("Your Binary number is:","-",BinaryNum)
 else:
     print("Your Binary number is:",BinaryNum)
+
+
+'''
+Updated Code
+'''
+
+n = int(input("Enter a number: "))
+
+if n < 0:
+    n = 2**16 + n
+
+# print(n)
+
+i = 0
+ans = 0
+
+while n > 0:
+    last_bit = n & 1
+    ans = (10**i) * last_bit + ans
+    n = n >> 1
+    i += 1
+    # print(ans)
+
+print(ans)
